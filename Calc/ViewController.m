@@ -19,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.display.layer setCornerRadius:5];
-    self.display.layer.borderColor = [UIColor grayColor].CGColor;
-    self.display.layer.borderWidth = 1.0;
+    //self.display.layer.borderColor = [UIColor grayColor].CGColor;
+    //self.display.layer.borderWidth = 1.0;
 }
 
 - (void)didReceiveMemoryWarning {
