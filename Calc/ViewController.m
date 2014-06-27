@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <QuartzCore/QuartzCore.h>
 
 // private interface
 @interface ViewController ()
@@ -15,18 +14,6 @@
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self.display.layer setCornerRadius:5];
-    //self.display.layer.borderColor = [UIColor grayColor].CGColor;
-    //self.display.layer.borderWidth = 1.0;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)digitPressed:(UIButton *)sender {
     NSString *digit = [sender currentTitle];
